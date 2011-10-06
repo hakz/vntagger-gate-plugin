@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GATE library"/>
 	<classpathentry kind="lib" path="lib/activation.jar"/>
 	<classpathentry kind="lib" path="lib/ant-contrib-1.0b2.jar"/>
 	<classpathentry kind="lib" path="lib/ant-junit.jar"/>
@@ -20,10 +23,6 @@
 	<classpathentry kind="lib" path="lib/concurrent.jar"/>
 	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/fontbox-1.1.0.jar"/>
-	<classpathentry kind="lib" path="lib/gate-asm.jar"/>
-	<classpathentry kind="lib" path="lib/gate-compiler-jdt.jar"/>
-	<classpathentry kind="lib" path="lib/gate.jar" sourcepath="D:/data/home/cumeo89/projects/ePi/gate-6.1-build3913-SRC/src"/>
-	<classpathentry kind="lib" path="lib/gateHmm.jar"/>
 	<classpathentry kind="lib" path="lib/geronimo-ws-metadata_2.0_spec-1.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/GnuGetOpt.jar"/>
 	<classpathentry kind="lib" path="lib/icu4j.jar"/>
@@ -65,8 +64,10 @@
 	<classpathentry kind="lib" path="lib/vn.hus.nlp.fsm-1.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/vn.hus.nlp.sd-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/vn.hus.nlp.utils-1.0.0.jar"/>
-	<classpathentry kind="lib" path="lib/edu.stanford.nlp.tagger-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/edu.stanford.nlp.tagger-2.0.jar" sourcepath="D:/data/home/cumeo89/projects/ePi/stanford-postagger-full-2011-09-14/src"/>
 	<classpathentry kind="lib" path="lib/vn.hus.nlp.tagger-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/GATE-6.1/bin/gate.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/vn.hus.nlp.tagger-modified"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/vnTokenizer"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
